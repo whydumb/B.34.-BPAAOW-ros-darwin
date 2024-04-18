@@ -1114,7 +1114,7 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_NECK">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/White</material>
   </gazebo>
   <gazebo reference="MP_HEAD">
     <material>Gazebo/Grey</material>
@@ -1123,13 +1123,13 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_SHOULDER_L">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/White</material>
   </gazebo>
   <gazebo reference="MP_ARM_HIGH_L">
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_ARM_LOW_L">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_ARM_GRIPPER_FIX_L">
     <material>Gazebo/Grey</material>
@@ -1144,13 +1144,13 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_SHOULDER_R">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/White</material>
   </gazebo>
   <gazebo reference="MP_ARM_HIGH_R">
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_ARM_LOW_R">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_ARM_GRIPPER_FIX_R">
     <material>Gazebo/Grey</material>
@@ -1162,10 +1162,10 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_PELVIS_L">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/White</material>
   </gazebo>
   <gazebo reference="MP_THIGH1_L">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_THIGH2_L">
     <material>Gazebo/Grey</material>
@@ -1174,7 +1174,7 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_ANKLE1_L">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_ANKLE2_L">
     <material>Gazebo/Grey</material>
@@ -1186,10 +1186,10 @@
     <maxContacts>1</maxContacts>
   </gazebo>
   <gazebo reference="MP_PELVIS_R">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/White</material>
   </gazebo>
   <gazebo reference="MP_THIGH1_R">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_THIGH2_R">
     <material>Gazebo/Grey</material>
@@ -1198,7 +1198,7 @@
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_ANKLE1_R">
-    <material>Gazebo/Grey</material>
+    <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_ANKLE2_R">
     <material>Gazebo/Grey</material>
