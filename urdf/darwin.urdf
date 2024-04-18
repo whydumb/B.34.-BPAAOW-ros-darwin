@@ -3,6 +3,9 @@
   <material name="black">
     <color rgba="0.01 0.01 0.01 1.0"/>
   </material>
+  <material name="lightgrey">
+    <color rgba="0.40 0.40 0.40 1.0"/>
+  </material>
   <link name="base_link"/>
   <joint name="base_link_to_body" type="fixed">
     <parent link="base_link"/>
@@ -43,9 +46,7 @@
         <!--box size="0.045 0.022 0.0325" /-->
         <mesh filename="package://darwin_description/meshes/neck.STL" scale="1 1 1"/>
       </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
+      <material name="lightgrey"/>
     </visual>
     <collision>
       <geometry>
@@ -108,9 +109,7 @@
         <!--box size="0.016 0.033 0.02165" /-->
         <mesh filename="package://darwin_description/meshes/shoulder_l.STL" scale="1 1 1"/>
       </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
+      <material name="lightgrey"/>
     </visual>
     <collision>
       <geometry>
@@ -273,9 +272,7 @@
         <!--box size="0.016 0.033 0.02165" /-->
         <mesh filename="package://darwin_description/meshes/shoulder_r.STL" scale="1 1 1"/>
       </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
+      <material name="lightgrey"/>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 3.14"/>
@@ -418,9 +415,7 @@
         <!--box size="0.045 0.08175 0.028652" /-->
         <mesh filename="package://darwin_description/meshes/pelvis_l.STL" scale="1 1 1"/>
       </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
+      <material name="lightgrey" />
     </visual>
     <collision>
       <geometry>
@@ -546,9 +541,7 @@
         <!--box size="0.045 0.08175 0.028652" /-->
         <mesh filename="package://darwin_description/meshes/pelvis_r.STL" scale="1 1 1"/>
       </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
+      <material name="lightgrey" />
     </visual>
     <collision>
       <geometry>
