@@ -798,21 +798,21 @@
   <joint name="j_thigh2_l" type="revolute">
     <parent link="MP_THIGH1_L"/>
     <child link="MP_THIGH2_L"/>
-    <origin xyz="0 0 0" rpy="1.5707963 -1.122 -1.5707963"/>
+    <origin xyz="0 0 0" rpy="1.5707963 -1.142 -1.5707963"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
   </joint>
   <joint name="j_tibia_l" type="revolute">
     <parent link="MP_THIGH2_L"/>
     <child link="MP_TIBIA_L"/>
-    <origin xyz="-0.093 0 0" rpy="0 0 -2.26"/>
+    <origin xyz="-0.093 0 0" rpy="0 0 -2.2788"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
   </joint>
   <joint name="j_ankle1_l" type="revolute">
     <parent link="MP_TIBIA_L"/>
     <child link="MP_ANKLE1_L"/>
-    <origin xyz="-0.093 0 0" rpy="3.14159 0 1.1288"/>
+    <origin xyz="-0.093 0 0" rpy="3.14159 0 1.1388"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
   </joint>
