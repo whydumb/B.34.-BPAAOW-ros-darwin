@@ -3,7 +3,10 @@
 ROS package providing mesh files and URDF of the Darwin OP robot for use with the real robot or Gazebo.
 URDF contains joint transmissions for controllers and Gazebo referenced plugins for camera and the IMU provided by hector_gazebo.
 
-![Darwin model in Gazebo](/darwin.png?raw=true "Darwin model in Gazebo")
+The Darwin is in the kneeling position, suggested by Robotis, as starting safe
+position.
+
+![Darwin model in Gazebo](/darwin_kneeling_position.png?raw=true "Darwin model in Gazebo")
 
 ## Tutorial
 
