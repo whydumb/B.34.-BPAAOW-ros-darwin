@@ -576,15 +576,13 @@
   </link>
   <link name="MP_TIBIA_R">
     <inertial>
-      <origin xyz="0.053955 0.006548 -0.000592"/>
-      <mass value="0.070309794"/>
-      <inertia ixx="0.000093369608" ixy="0.00000093567395" ixz="0.00000023992085" iyx="0.00000093567395" iyy="0.000046295534" iyz="-0.000012858493" izx="0.00000023992085" izy="-0.000012858493" izz="0.00011351516"/>
+      <origin xyz="0.04470297 0.00064823 -1.647e-05"/>
+      <mass value="0.07030979"/>
+      <inertia ixx="3.954e-05" ixy="-1.134e-05" ixz="-3e-08" iyy="8.405e-05" iyz="3e-08" izz="8.317e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.093 0.035 0.045"/-->
         <mesh filename="package://darwin_description/meshes/tibia_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
