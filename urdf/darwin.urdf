@@ -416,15 +416,13 @@
   </link>
   <link name="MP_THIGH1_L">
     <inertial>
-      <origin xyz="0.000079 0.018242 0.013873"/>
+      <origin xyz="-0.00055621 0.01256061 0.02010951"/>
       <mass value="0.11904336"/>
-      <inertia ixx="0.097950272" ixy="0.0012119368" ixz="-0.00021223016" iyx="0.00122119368" iyy="0.032848287" iyz="-0.0019474021" izx="-0.00021223016" izy="-0.0019474021" izz="0.11493509"/>
+      <inertia ixx="8.564e-05" ixy="-3.8e-07" ixz="-5.2e-07" iyy="7.507e-05" iyz="-1.29e-06" izz="3.728e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.001 0.001 0.001"/-->
         <mesh filename="package://darwin_description/meshes/thigh1_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
