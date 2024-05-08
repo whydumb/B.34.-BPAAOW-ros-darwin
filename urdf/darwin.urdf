@@ -496,15 +496,13 @@
   </link>
   <link name="MP_ANKLE2_L">
     <inertial>
-      <origin xyz="-0.025995 -0.009506 -0.000503"/>
+      <origin xyz="-0.01996417 -0.00872548 -0.00081419"/>
       <mass value="0.0794462"/>
-      <inertia ixx="0.12079175" ixy="-0.00079781067" ixz="-0.00039322246" iyx="-0.00079781067" iyy="0.10885465" iyz="0.0070770117" izx="-0.00039322246" izy="0.0070770117" izz="0.041871103"/>
+      <inertia ixx="8.112e-05" ixy="-1.74e-06" ixz="-1.2e-07" iyy="6.424e-05" iyz="-3.7e-07" izz="2.961e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.008 0.066 0.104"/-->
         <mesh filename="package://darwin_description/meshes/ankle2_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
