@@ -13,17 +13,13 @@
   </joint>
   <link name="MP_BODY">
     <inertial>
-      <origin xyz="-0.003053 -0.038651 -0.019268"/>
+      <origin xyz="-0.01968089 -1.96e-06 -0.03183524"/>
       <mass value="0.97559947"/>
-      <inertia ixx="0.00310818" ixy="-0.00025460189" ixz="0.0020318174" iyy="0.0063787776" iyz="0.00016417863" izz="0.0053316425"/>
+      <inertia ixx="0.00204518" ixy="6e-08" ixz="0.00021261" iyy="0.00176434" iyz="3.4e-07" izz="0.00196178"/>
     </inertial>
     <visual>
-      <!--origin
-      xyz="-0.0235 0 -0.03525" rpy="0 0 0" /-->
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.102 0.109 0.106" /-->
         <mesh filename="package://darwin_description/meshes/body.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
