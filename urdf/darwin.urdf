@@ -276,15 +276,13 @@
   </link>
   <link name="MP_ARM_HIGH_R">
     <inertial>
-      <origin xyz="-0.036239 0.000734 -0.000660"/>
+      <origin xyz="-0.03432871 -0.00089179 -0.00217792"/>
       <mass value="0.16837715"/>
-      <inertia ixx="0.00012202839" ixy="0.0000020812626" ixz="0.00000088143449" iyx="0.0000020812626" iyy="0.000038088441" iyz="0.0000018251448" izx="0.00000088143449" izy="0.0000018251448" izz="0.0001134083"/>
+      <inertia ixx="4.894e-05" ixy="-2.5e-07" ixz="-3.89e-06" iyy="0.0001374" iyz="-3.3e-07" izz="0.0001269"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="3.14 0 0"/>
       <geometry>
-        <!--box
-        size="0.06 0.032 0.035"/-->
         <mesh filename="package://darwin_description/meshes/arm_high_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
