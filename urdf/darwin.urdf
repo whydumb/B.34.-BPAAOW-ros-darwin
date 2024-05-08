@@ -397,15 +397,13 @@
   </link>
   <link name="MP_PELVIS_L">
     <inertial>
-      <origin xyz="0.000000 0.000480 0.018437"/>
+      <origin xyz="-3.6e-06 0.00274563 0.01637871"/>
       <mass value="0.167108"/>
-      <inertia ixx="0.00012259691" ixy="0.00000071127469" ixz="0.00000081143913" iyx="0.00000071127469" iyy="0.00011066637" iyz="-0.0000071635476" izx="0.00000081143913" izy="-0.0000071635476" izz="0.000041877668"/>
+      <inertia ixx="5.095e-05" ixy="1e-08" ixz="1e-08" iyy="2.431e-05" iyz="1e-08" izz="4.36e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.045 0.08175 0.028652" /-->
         <mesh filename="package://darwin_description/meshes/pelvis_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
