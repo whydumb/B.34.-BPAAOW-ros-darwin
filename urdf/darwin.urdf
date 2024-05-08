@@ -34,15 +34,13 @@
   </link>
   <link name="MP_NECK">
     <inertial>
-      <origin xyz="0.001424 -0.016567 -0.007128"/>
-      <mass value="0.024357719"/>
-      <inertia ixx="0.0000051411124" ixy="-0.00000057530255" ixz="-0.000000024729049" iyy="0.0000081915737" iyz="-0.00000019223094" izz="0.000011379812"/>
+      <origin xyz="-3.2e-07 0.00065035 0.01592837"/>
+      <mass value="0.02435772"/>
+      <inertia ixx="3.22e-06" ixy="-0.0" ixz="0.0" iyy="6.2e-06" iyz="9e-08" izz="5.18e-06"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.045 0.022 0.0325" /-->
         <mesh filename="package://darwin_description/meshes/neck.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
