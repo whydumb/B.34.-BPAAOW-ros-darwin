@@ -256,7 +256,7 @@
   </link>
   <link name="MP_SHOULDER_R">
     <inertial>
-      <origin xyz="-0.00578109 2.23e-06 0.01384056"/>
+      <origin xyz="0.00578109 2.23e-06 0.01384056"/>
       <mass value="0.02591302"/>
       <inertia ixx="6.01e-06" ixy="-0.0" ixz="7.3e-07" iyy="3.72e-06" iyz="0.0" izz="6.37e-06"/>
     </inertial>
