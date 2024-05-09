@@ -740,7 +740,7 @@
     <child link="MP_ARM_LOW_R"/>
     <origin xyz="-0.06 0 0.016" rpy="-1.5707963 4.64159 0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="2.8" velocity="5.6548668" lower="-1.635" upper="2.6179939"/>
+    <limit effort="2.8" velocity="5.6548668" lower="0" upper="2.7925268"/>
   </joint>
   <joint name="j_wrist_r" type="revolute">
     <parent link="MP_ARM_LOW_R"/>
