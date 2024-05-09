@@ -667,7 +667,7 @@
     <child link="MP_HEAD"/>
     <origin xyz="0 0 0.02715" rpy="-1.5707963 0 1.5707963"/>
     <axis xyz="0 0 1"/>
-    <limit effort="2.8" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
+    <limit effort="2.8" velocity="5.6548668" lower="-1.0471976" upper="0.5235988"/>
   </joint>
   <joint name="j_back_l" type="fixed">
     <parent link="MP_BODY"/>
