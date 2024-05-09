@@ -766,7 +766,7 @@
     <child link="MP_PELVIS_L"/>
     <origin xyz="-0.005 0.037 -0.09355" rpy="0 3.14159 -1.5707963"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
+    <limit effort="10" velocity="5.6548668" lower="-0.7853982" upper="2.6179939"/>
   </joint>
   <joint name="j_thigh1_l" type="revolute">
     <parent link="MP_PELVIS_L"/>
