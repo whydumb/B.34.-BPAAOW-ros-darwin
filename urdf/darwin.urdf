@@ -13,17 +13,13 @@
   </joint>
   <link name="MP_BODY">
     <inertial>
-      <origin xyz="-0.003053 -0.038651 -0.019268"/>
+      <origin xyz="-0.01968089 -1.96e-06 -0.03183524"/>
       <mass value="0.97559947"/>
-      <inertia ixx="0.00310818" ixy="-0.00025460189" ixz="0.0020318174" iyy="0.0063787776" iyz="0.00016417863" izz="0.0053316425"/>
+      <inertia ixx="0.00204518" ixy="6e-08" ixz="0.00021261" iyy="0.00176434" iyz="3.4e-07" izz="0.00196178"/>
     </inertial>
     <visual>
-      <!--origin
-      xyz="-0.0235 0 -0.03525" rpy="0 0 0" /-->
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.102 0.109 0.106" /-->
         <mesh filename="package://darwin_description/meshes/body.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -38,15 +34,13 @@
   </link>
   <link name="MP_NECK">
     <inertial>
-      <origin xyz="0.001424 -0.016567 -0.007128"/>
-      <mass value="0.024357719"/>
-      <inertia ixx="0.0000051411124" ixy="-0.00000057530255" ixz="-0.000000024729049" iyy="0.0000081915737" iyz="-0.00000019223094" izz="0.000011379812"/>
+      <origin xyz="-3.2e-07 0.00065035 0.01592837"/>
+      <mass value="0.02435772"/>
+      <inertia ixx="3.22e-06" ixy="-0.0" ixz="0.0" iyy="6.2e-06" iyz="9e-08" izz="5.18e-06"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.045 0.022 0.0325" /-->
         <mesh filename="package://darwin_description/meshes/neck.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
@@ -59,14 +53,13 @@
   </link>
   <link name="MP_HEAD">
     <inertial>
-      <origin xyz="0.000064 -0.018565 -0.007667"/>
+      <origin xyz="0.0025258 -0.0244761 6.7e-07"/>
       <mass value="0.15804192"/>
-      <inertia ixx="0.0001239683" ixy="0.00000078494368" ixz="-0.00000007645979" iyy="0.00011783781" iyz="0.000012199205" izz="0.00011583601"/>
+      <inertia ixx="0.00015674" ixy="2.495e-05" ixz="-0.0" iyy="0.00016811" iyz="0.0" izz="0.00017148"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!-- box size="0.0634 0.061 0.033" /-->
         <mesh filename="package://darwin_description/meshes/head.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -81,9 +74,9 @@
   </link>
   <link name="MP_BACK_L">
     <inertial>
-      <origin xyz="-0.0031158909 0.020443695 -0.019663084"/>
-      <mass value="0.010"/>
-      <inertia ixx="3.1081800" ixy="-0.25460189" ixz="2.0318174" iyy="6.3787776" iyz="0.16417863" izz="5.3316425"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
@@ -102,15 +95,13 @@
   </link>
   <link name="MP_SHOULDER_L">
     <inertial>
-      <origin xyz="-0.013522619 0.010264050 0.0013935747"/>
-      <mass value="0.025913024"/>
-      <inertia ixx="0.0000097758165" ixy="0.0000016911839" ixz="-0.00000045174329" iyx="0.0000016911839" iyy="0.000010511104" iyz="0.00000033406955" izx="-0.00000045174329" izy="0.00000033406955" izz="0.000005476798"/>
+      <origin xyz="-0.00578109 2.23e-06 0.01384056"/>
+      <mass value="0.02591302"/>
+      <inertia ixx="6.01e-06" ixy="-0.0" ixz="7.3e-07" iyy="3.72e-06" iyz="0.0" izz="6.37e-06"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.016 0.033 0.02165" /-->
         <mesh filename="package://darwin_description/meshes/shoulder_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
@@ -123,15 +114,13 @@
   </link>
   <link name="MP_ARM_HIGH_L">
     <inertial>
-      <origin xyz="-0.036239 0.000734 0.000660"/>
+      <origin xyz="-0.03432212 0.00089505 -0.00216268"/>
       <mass value="0.16837715"/>
-      <inertia ixx="0.00012202839" ixy="-0.0000020812626" ixz="-0.00000088143449" iyx="-0.0000020812626" iyy="0.000038088441" iyz="0.0000018251448" izx="-0.00000088143449" izy="0.0000018251448" izz="0.00011340830"/>
+      <inertia ixx="4.896e-05" ixy="2.7e-07" ixz="-3.93e-06" iyy="0.00013742" iyz="3.5e-07" izz="0.00012682"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.06 0.032 0.035" /-->
         <mesh filename="package://darwin_description/meshes/arm_high_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -146,9 +135,9 @@
   </link>
   <link name="MP_ARM_LOW_L">
     <inertial>
-      <origin xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.059288504"/>
-      <inertia ixx="0.000086855267" ixy="0.0000053020311" ixz="0.00000043636051" iyx="0.0000053020311" iyy="0.000021192085" iyz="-0.0000064855932" izx="0.00000043636051" izy="-0.0000064855932" izz="0.000086845450"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.0592885"/>
+      <inertia ixx="1.111e-05" ixy="0.0" ixz="0.0" iyy="1.111e-05" iyz="0.0" izz="1.012e-05"/>
     </inertial>
     <visual>
       <origin xyz="0.016 0.016 0" rpy="0 0 0"/>
@@ -166,9 +155,9 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_L">
     <inertial>
-      <origin xyz="0.045838 -0.013490 0.006666"/>
-      <mass value="0.010"/>
-      <inertia ixx="0.12202839" ixy="-0.0020812626" ixz="-0.00088143449" iyx="-0.0020812626" iyy="0.038088441" iyz="0.0018251448" izx="-0.00088143449" izy="0.0018251448" izz="0.11340830"/>
+      <origin xyz="-0.032 0.016 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1.71e-06" ixy="-0.0" ixz="-0.0" iyy="4.27e-06" iyz="-0.0" izz="4.27e-06"/>
     </inertial>
     <visual>
       <origin xyz="0.016 0 0" rpy="0 0 0"/>
@@ -188,9 +177,9 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_DUMMY_L">
     <inertial>
-      <origin xyz="0 0 0"/>
-      <mass value="0.010"/>
-      <inertia ixx="0.12202839" ixy="-0.0020812626" ixz="-0.00088143449" iyx="-0.0020812626" iyy="0.038088441" iyz="0.0018251448" izx="-0.00088143449" izy="0.0018251448" izz="0.11340830"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="8.7e-07" ixy="0.0" ixz="0.0" iyy="1.71e-06" iyz="0.0" izz="8.7e-07"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -209,9 +198,9 @@
   </link>
   <link name="MP_ARM_GRIPPER_MOV_L">
     <inertial>
-      <origin xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.010"/>
-      <inertia ixx="0.12202839" ixy="-0.0020812626" ixz="-0.00088143449" iyx="-0.0020812626" iyy="0.038088441" iyz="0.0018251448" izx="-0.00088143449" izy="0.0018251448" izz="0.11340830"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="8.7e-07" ixy="0.0" ixz="0.0" iyy="1.71e-06" iyz="0.0" izz="8.7e-07"/>
     </inertial>
     <visual name="VIS_MP_ARM_GRIPPER_MOV_L">
       <origin xyz="0.016 0 0" rpy="0 0 0"/>
@@ -246,9 +235,9 @@
   </link>
   <link name="MP_BACK_R">
     <inertial>
-      <origin xyz="0 0 0"/>
-      <mass value="0.010"/>
-      <inertia ixx="3.1081800" ixy="-0.25460189" ixz="2.0318174" iyy="6.3787776" iyz="0.16417863" izz="5.3316425"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
@@ -267,15 +256,13 @@
   </link>
   <link name="MP_SHOULDER_R">
     <inertial>
-      <origin xyz="-0.013523 0.010264 0.001394"/>
-      <mass value="0.025913024"/>
-      <inertia ixx="0.0000097758165" ixy="-0.0000016911839" ixz="0.00000045174329" iyx="-0.0000016911839" iyy="0.000010511104" iyz="0.00000033406955" izx="0.00000045174329" izy="0.00000033406955" izz="0.0000054767980"/>
+      <origin xyz="0.00578109 2.23e-06 0.01384056"/>
+      <mass value="0.02591302"/>
+      <inertia ixx="6.01e-06" ixy="-0.0" ixz="7.3e-07" iyy="3.72e-06" iyz="0.0" izz="6.37e-06"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 3.14"/>
       <geometry>
-        <!--box
-        size="0.016 0.033 0.02165" /-->
         <mesh filename="package://darwin_description/meshes/shoulder_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
@@ -289,15 +276,13 @@
   </link>
   <link name="MP_ARM_HIGH_R">
     <inertial>
-      <origin xyz="-0.036239 0.000734 -0.000660"/>
+      <origin xyz="-0.03432871 -0.00089179 -0.00217792"/>
       <mass value="0.16837715"/>
-      <inertia ixx="0.00012202839" ixy="0.0000020812626" ixz="0.00000088143449" iyx="0.0000020812626" iyy="0.000038088441" iyz="0.0000018251448" izx="0.00000088143449" izy="0.0000018251448" izz="0.0001134083"/>
+      <inertia ixx="4.894e-05" ixy="-2.5e-07" ixz="-3.89e-06" iyy="0.0001374" iyz="-3.3e-07" izz="0.0001269"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="3.14 0 0"/>
       <geometry>
-        <!--box
-        size="0.06 0.032 0.035"/-->
         <mesh filename="package://darwin_description/meshes/arm_high_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -312,9 +297,9 @@
   </link>
   <link name="MP_ARM_LOW_R">
     <inertial>
-      <origin xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.059288504"/>
-      <inertia ixx="0.000086855267" ixy="-0.0000053020311" ixz="-0.00000043636051" iyx="-0.0000053020311" iyy="0.000021192085" iyz="-0.0000064855932" izx="-0.00000043636051" izy="-0.0000064855932" izz="0.000086845450"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.0592885"/>
+      <inertia ixx="1.111e-05" ixy="0.0" ixz="0.0" iyy="1.111e-05" iyz="0.0" izz="1.012e-05"/>
     </inertial>
     <visual>
       <origin xyz="0.016 -0.016 0" rpy="0 0 0"/>
@@ -332,9 +317,9 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_R">
     <inertial>
-      <origin xyz="0.045838 -0.013490 0.006666"/>
-      <mass value="0.010"/>
-      <inertia ixx="0.12202839" ixy="-0.0020812626" ixz="-0.00088143449" iyx="-0.0020812626" iyy="0.038088441" iyz="0.0018251448" izx="-0.00088143449" izy="0.0018251448" izz="0.11340830"/>
+      <origin xyz="-0.032 0.016 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="1.71e-06" ixy="-0.0" ixz="-0.0" iyy="4.27e-06" iyz="-0.0" izz="4.27e-06"/>
     </inertial>
     <visual>
       <origin xyz="0.016 0 0" rpy="0 0 0"/>
@@ -354,9 +339,9 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_DUMMY_R">
     <inertial>
-      <origin xyz="0 0 0"/>
-      <mass value="0.010"/>
-      <inertia ixx="0.12202839" ixy="-0.0020812626" ixz="-0.00088143449" iyx="-0.0020812626" iyy="0.038088441" iyz="0.0018251448" izx="-0.00088143449" izy="0.0018251448" izz="0.11340830"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="8.7e-07" ixy="0.0" ixz="0.0" iyy="1.71e-06" iyz="0.0" izz="8.7e-07"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -375,9 +360,9 @@
   </link>
   <link name="MP_ARM_GRIPPER_MOV_R">
     <inertial>
-      <origin xyz="0.000000 0.000000 0.000000"/>
-      <mass value="0.010"/>
-      <inertia ixx="0.12202839" ixy="-0.0020812626" ixz="-0.00088143449" iyx="-0.0020812626" iyy="0.038088441" iyz="0.0018251448" izx="-0.00088143449" izy="0.0018251448" izz="0.11340830"/>
+      <origin xyz="0.0 0.0 0.0"/>
+      <mass value="0.01"/>
+      <inertia ixx="8.7e-07" ixy="0.0" ixz="0.0" iyy="1.71e-06" iyz="0.0" izz="8.7e-07"/>
     </inertial>
     <visual name="VIS_MP_ARM_GRIPPER_MOV_R">
       <origin xyz="0.016 0 0" rpy="0 0 0"/>
@@ -412,15 +397,13 @@
   </link>
   <link name="MP_PELVIS_L">
     <inertial>
-      <origin xyz="0.000000 0.000480 0.018437"/>
+      <origin xyz="-3.6e-06 0.00274563 0.01637871"/>
       <mass value="0.167108"/>
-      <inertia ixx="0.00012259691" ixy="0.00000071127469" ixz="0.00000081143913" iyx="0.00000071127469" iyy="0.00011066637" iyz="-0.0000071635476" izx="0.00000081143913" izy="-0.0000071635476" izz="0.000041877668"/>
+      <inertia ixx="5.095e-05" ixy="1e-08" ixz="1e-08" iyy="2.431e-05" iyz="1e-08" izz="4.36e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.045 0.08175 0.028652" /-->
         <mesh filename="package://darwin_description/meshes/pelvis_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
@@ -433,15 +416,13 @@
   </link>
   <link name="MP_THIGH1_L">
     <inertial>
-      <origin xyz="0.000079 0.018242 0.013873"/>
+      <origin xyz="-0.00055621 0.01256061 0.02010951"/>
       <mass value="0.11904336"/>
-      <inertia ixx="0.097950272" ixy="0.0012119368" ixz="-0.00021223016" iyx="0.00122119368" iyy="0.032848287" iyz="-0.0019474021" izx="-0.00021223016" izy="-0.0019474021" izz="0.11493509"/>
+      <inertia ixx="8.564e-05" ixy="-3.8e-07" ixz="-5.2e-07" iyy="7.507e-05" iyz="-1.29e-06" izz="3.728e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.001 0.001 0.001"/-->
         <mesh filename="package://darwin_description/meshes/thigh1_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
@@ -454,15 +435,13 @@
   </link>
   <link name="MP_THIGH2_L">
     <inertial>
-      <origin xyz="-0.062965 -0.000323 0.000692"/>
+      <origin xyz="-0.0505506 -0.00237527 4.59e-06"/>
       <mass value="0.11904336"/>
-      <inertia ixx="0.000097950272" ixy="0.0000012119368" ixz="-0.00000021223016" iyy="0.000032848287" iyz="-0.0000019474021" izz="0.00011493509"/>
+      <inertia ixx="4.092e-05" ixy="3.5e-07" ixz="-2e-08" iyy="0.0001417" iyz="-1e-08" izz="0.00012927"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.093 0.035 0.045"-->
         <mesh filename="package://darwin_description/meshes/thigh2_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -477,15 +456,13 @@
   </link>
   <link name="MP_TIBIA_L">
     <inertial>
-      <origin xyz="-0.053955 0.006548 -0.000592"/>
-      <mass value="0.070309794"/>
-      <inertia ixx="0.000093369608" ixy="-0.00000093567395" ixz="-0.00000023992085" iyx="-0.00093567395" iyy="0.000046295534" iyz="-0.000012858493" izx="-0.00023992085" izy="-0.012858493" izz="0.00011351516"/>
+      <origin xyz="-0.04465502 0.00065808 1.657e-05"/>
+      <mass value="0.07030979"/>
+      <inertia ixx="3.952e-05" ixy="1.132e-05" ixz="-4e-08" iyy="8.428e-05" iyz="-2e-08" izz="8.337e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.093 0.035 0.045"/-->
         <mesh filename="package://darwin_description/meshes/tibia_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -500,15 +477,13 @@
   </link>
   <link name="MP_ANKLE1_L">
     <inertial>
-      <origin xyz="-0.000214 -0.018536 0.013873"/>
+      <origin xyz="0.01267911 -0.02011283 -0.00055849"/>
       <mass value="0.16710792"/>
-      <inertia ixx="0.12079175" ixy="-0.00079781067" ixz="-0.00039322246" iyx="-0.00079781067" iyy="0.10885465" iyz="0.0070770117" izx="-0.00039322246" izy="0.0070770117" izz="0.041871103"/>
+      <inertia ixx="0.00010548" ixy="2.15e-06" ixz="-5.2e-07" iyy="5.228e-05" iyz="5.9e-07" izz="0.00012021"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.028652 0.08175 0.045"/-->
         <mesh filename="package://darwin_description/meshes/ankle1_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
@@ -521,15 +496,13 @@
   </link>
   <link name="MP_ANKLE2_L">
     <inertial>
-      <origin xyz="-0.025995 -0.009506 -0.000503"/>
+      <origin xyz="-0.01996417 -0.00872548 -0.00081419"/>
       <mass value="0.0794462"/>
-      <inertia ixx="0.12079175" ixy="-0.00079781067" ixz="-0.00039322246" iyx="-0.00079781067" iyy="0.10885465" iyz="0.0070770117" izx="-0.00039322246" izy="0.0070770117" izz="0.041871103"/>
+      <inertia ixx="8.112e-05" ixy="-1.74e-06" ixz="-1.2e-07" iyy="6.424e-05" iyz="-3.7e-07" izz="2.961e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.008 0.066 0.104"/-->
         <mesh filename="package://darwin_description/meshes/ankle2_l.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -544,15 +517,13 @@
   </link>
   <link name="MP_PELVIS_R">
     <inertial>
-      <origin xyz="0.000000 0.000480 0.018437"/>
+      <origin xyz="3.59e-06 -0.00274568 0.01637869"/>
       <mass value="0.167108"/>
-      <inertia ixx="0.00012259691" ixy="-0.00000071127469" ixz="-0.00000081143913" iyx="-0.00000071127469" iyy="0.00011066637" iyz="0.0000071635476" izx="-0.00000081143913" izy="0.0000071635476" izz="0.000041877668"/>
+      <inertia ixx="5.095e-05" ixy="1e-08" ixz="-1e-08" iyy="2.431e-05" iyz="-1e-08" izz="4.361e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.045 0.08175 0.028652" /-->
         <mesh filename="package://darwin_description/meshes/pelvis_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="lightgrey"/>
@@ -565,15 +536,13 @@
   </link>
   <link name="MP_THIGH1_R">
     <inertial>
-      <origin xyz="0.000079 -0.018242 0.0138735"/>
+      <origin xyz="-0.00056702 -0.01268458 0.02009548"/>
       <mass value="0.11904336"/>
-      <inertia ixx="0.000097950272" ixy="-0.0000012119368" ixz="0.00000021223016" iyx="-0.0000012119368" iyy="0.000032848287" iyz="-0.0000019474021" izx="0.00000021223016" izy="-0.0000019474021" izz="0.00011493509"/>
+      <inertia ixx="8.559e-05" ixy="3.6e-07" ixz="-4.1e-07" iyy="7.506e-05" iyz="1.52e-06" izz="3.723e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.001 0.001 0.001"/-->
         <mesh filename="package://darwin_description/meshes/thigh1_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
@@ -586,15 +555,13 @@
   </link>
   <link name="MP_THIGH2_R">
     <inertial>
-      <origin xyz="0.062965 -0.000323 0.000692"/>
+      <origin xyz="0.05054363 -0.00238112 -5.74e-06"/>
       <mass value="0.11904336"/>
-      <inertia ixx="0.000097950272" ixy="-0.0000012119368" ixz="0.00000021223016" iyx="-0.0000012119368" iyy="0.000032848287" iyz="-0.0000019474021" izx="0.00000021223016" izy="-0.0000019474021" izz="0.00011493509"/>
+      <inertia ixx="4.092e-05" ixy="-3.3e-07" ixz="-2e-08" iyy="0.00014167" iyz="0.0" izz="0.00012925"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.093 0.035 0.045"/-->
         <mesh filename="package://darwin_description/meshes/thigh2_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -609,15 +576,13 @@
   </link>
   <link name="MP_TIBIA_R">
     <inertial>
-      <origin xyz="0.053955 0.006548 -0.000592"/>
-      <mass value="0.070309794"/>
-      <inertia ixx="0.000093369608" ixy="0.00000093567395" ixz="0.00000023992085" iyx="0.00000093567395" iyy="0.000046295534" iyz="-0.000012858493" izx="0.00000023992085" izy="-0.000012858493" izz="0.00011351516"/>
+      <origin xyz="0.04470297 0.00064823 -1.647e-05"/>
+      <mass value="0.07030979"/>
+      <inertia ixx="3.954e-05" ixy="-1.134e-05" ixz="-3e-08" iyy="8.405e-05" iyz="3e-08" izz="8.317e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.093 0.035 0.045"/-->
         <mesh filename="package://darwin_description/meshes/tibia_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
@@ -632,15 +597,13 @@
   </link>
   <link name="MP_ANKLE1_R">
     <inertial>
-      <origin xyz="-0.000214 -0.018536 -0.013873"/>
+      <origin xyz="-0.01254859 -0.02009754 -0.00055246"/>
       <mass value="0.16710792"/>
-      <inertia ixx="0.12079175" ixy="-0.00079781067" ixz="-0.00039322246" iyx="-0.00079781067" iyy="0.10885465" iyz="0.0070770117" izx="-0.00039322246" izy="0.0070770117" izz="0.041871103"/>
+      <inertia ixx="0.00010546" ixy="-1.82e-06" ixz="5.3e-07" iyy="5.235e-05" iyz="5.9e-07" izz="0.00012028"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.028652 0.08175 0.045"/-->
         <mesh filename="package://darwin_description/meshes/ankle1_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="black"/>
@@ -653,15 +616,13 @@
   </link>
   <link name="MP_ANKLE2_R">
     <inertial>
-      <origin xyz="0.025995 -0.009506 -0.000503"/>
+      <origin xyz="0.01996174 -0.008713 -0.00082472"/>
       <mass value="0.0794462"/>
-      <inertia ixx="0.12079175" ixy="-0.00079781067" ixz="-0.00039322246" iyx="-0.00079781067" iyy="0.10885465" iyz="0.0070770117" izx="-0.00039322246" izy="0.0070770117" izz="0.041871103"/>
+      <inertia ixx="8.107e-05" ixy="1.75e-06" ixz="1.2e-07" iyy="6.42e-05" iyz="-4.1e-07" izz="2.962e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <!--box
-        size="0.008 0.066 0.104"/-->
         <mesh filename="package://darwin_description/meshes/ankle2_r.STL" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
