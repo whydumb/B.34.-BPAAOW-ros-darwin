@@ -317,7 +317,7 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_R">
     <inertial>
-      <origin xyz="0.032 0.016 0.016"/>
+      <origin xyz="-0.032 0.016 0.0"/>
       <mass value="0.01"/>
       <inertia ixx="1.71e-06" ixy="-0.0" ixz="-0.0" iyy="4.27e-06" iyz="-0.0" izz="4.27e-06"/>
     </inertial>
