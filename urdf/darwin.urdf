@@ -742,7 +742,7 @@
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="0" upper="2.7925268"/>
   </joint>
-  <joint name="j_wrist_r" type="revolute">
+  <joint name="j_wrist_r" type="fixed">
     <parent link="MP_ARM_LOW_R"/>
     <child link="MP_ARM_GRIPPER_FIX_R"/>
     <origin xyz="0.048 -0.016 0" rpy="1.5707963 0 0"/>
