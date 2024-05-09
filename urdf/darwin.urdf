@@ -713,7 +713,7 @@
     <child link="MP_ARM_GRIPPER_MOV_L"/>
     <origin xyz="0.048 0.01 0" rpy="0 0 1.0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="2.8" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
+    <limit effort="2.8" velocity="5.6548668" lower="-1.24" upper="0"/>
   </joint>
   <joint name="j_back_r" type="fixed">
     <parent link="MP_BODY"/>
