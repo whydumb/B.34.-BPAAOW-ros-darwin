@@ -733,7 +733,7 @@
     <child link="MP_ARM_HIGH_R"/>
     <origin xyz="0.016 0 0.02165" rpy="-1.5707963 2.9415926 0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="2.8" velocity="5.648668" lower="-2.6179939" upper="2.6179939"/>
+    <limit effort="2.8" velocity="5.648668" lower="-1.7453293" upper="1.7453293"/>
   </joint>
   <joint name="j_low_arm_r" type="revolute">
     <parent link="MP_ARM_HIGH_R"/>
