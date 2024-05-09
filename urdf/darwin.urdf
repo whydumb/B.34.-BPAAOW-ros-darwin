@@ -680,7 +680,7 @@
     <child link="MP_SHOULDER_L"/>
     <origin xyz="0 0 0" rpy="0 0 -1.15"/>
     <axis xyz="0 0 1"/>
-    <limit effort="2.8" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
+    <limit effort="2.8" velocity="5.6548668" lower="-4.3633231" upper="4.3633231"/>
   </joint>
   <joint name="j_high_arm_l" type="revolute">
     <parent link="MP_SHOULDER_L"/>
