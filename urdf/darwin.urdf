@@ -678,21 +678,21 @@
   <joint name="j_shoulder_l" type="revolute">
     <parent link="MP_BACK_L"/>
     <child link="MP_SHOULDER_L"/>
-    <origin xyz="0 0 0" rpy="0 0 -1.15"/>
+    <origin xyz="0 0 0" rpy="0 0 -1.5707963"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="-4.3633231" upper="4.3633231"/>
   </joint>
   <joint name="j_high_arm_l" type="revolute">
     <parent link="MP_SHOULDER_L"/>
     <child link="MP_ARM_HIGH_L"/>
-    <origin xyz="-0.016 0 0.02165" rpy="1.5707963 0.2 0"/>
+    <origin xyz="-0.016 0 0.02165" rpy="1.5707963 1.5707963 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.648668" lower="-1.7453293" upper="1.7453293"/>
   </joint>
   <joint name="j_low_arm_l" type="revolute">
     <parent link="MP_ARM_HIGH_L"/>
     <child link="MP_ARM_LOW_L"/>
-    <origin xyz="-0.06 0 -0.016" rpy="-1.5707963 1.64159 0"/>
+    <origin xyz="-0.06 0 -0.016" rpy="-1.5707963 3.14159 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="-2.7925268" upper="0"/>
   </joint>
@@ -724,21 +724,21 @@
   <joint name="j_shoulder_r" type="revolute">
     <parent link="MP_BACK_R"/>
     <child link="MP_SHOULDER_R"/>
-    <origin xyz="0 0 0" rpy="0 0 -1.9907"/>
+    <origin xyz="0 0 0" rpy="0 0 -1.5707963"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="-4.3633231" upper="4.3633231"/>
   </joint>
   <joint name="j_high_arm_r" type="revolute">
     <parent link="MP_SHOULDER_R"/>
     <child link="MP_ARM_HIGH_R"/>
-    <origin xyz="0.016 0 0.02165" rpy="-1.5707963 2.9415926 0"/>
+    <origin xyz="0.016 0 0.02165" rpy="-1.5707963 1.5707963 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.648668" lower="-1.7453293" upper="1.7453293"/>
   </joint>
   <joint name="j_low_arm_r" type="revolute">
     <parent link="MP_ARM_HIGH_R"/>
     <child link="MP_ARM_LOW_R"/>
-    <origin xyz="-0.06 0 0.016" rpy="-1.5707963 4.64159 0"/>
+    <origin xyz="-0.06 0 0.016" rpy="-1.5707963 3.14159 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="0" upper="2.7925268"/>
   </joint>
@@ -778,21 +778,21 @@
   <joint name="j_thigh2_l" type="revolute">
     <parent link="MP_THIGH1_L"/>
     <child link="MP_THIGH2_L"/>
-    <origin xyz="0 0 0" rpy="1.5707963 -1.142 -1.5707963"/>
+    <origin xyz="0 0 0" rpy="1.5707963 0 -1.5707963"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-0.5235988" upper="1.7453293"/>
   </joint>
   <joint name="j_tibia_l" type="revolute">
     <parent link="MP_THIGH2_L"/>
     <child link="MP_TIBIA_L"/>
-    <origin xyz="-0.093 0 0" rpy="0 0 -2.2788"/>
+    <origin xyz="-0.093 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-2.268928" upper="0"/>
   </joint>
   <joint name="j_ankle1_l" type="revolute">
     <parent link="MP_TIBIA_L"/>
     <child link="MP_ANKLE1_L"/>
-    <origin xyz="-0.093 0 0" rpy="3.14159 0 1.1388"/>
+    <origin xyz="-0.093 0 0" rpy="3.14159 0 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-1.0471976" upper="1.0471976"/>
   </joint>
@@ -820,21 +820,21 @@
   <joint name="j_thigh2_r" type="revolute">
     <parent link="MP_THIGH1_R"/>
     <child link="MP_THIGH2_R"/>
-    <origin xyz="0 0 0" rpy="1.5707963 1.142 -1.5707963"/>
+    <origin xyz="0 0 0" rpy="1.5707963 0 -1.5707963"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-1.7453293" upper="0.5235988"/>
   </joint>
   <joint name="j_tibia_r" type="revolute">
     <parent link="MP_THIGH2_R"/>
     <child link="MP_TIBIA_R"/>
-    <origin xyz="0.093 0 0" rpy="0 0 2.2788"/>
+    <origin xyz="0.093 0 0" rpy="0 0 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="0" upper="2.268928"/>
   </joint>
   <joint name="j_ankle1_r" type="revolute">
     <parent link="MP_TIBIA_R"/>
     <child link="MP_ANKLE1_R"/>
-    <origin xyz="0.093 0 0" rpy="3.14159 0 -1.1388"/>
+    <origin xyz="0.093 0 0" rpy="3.14159 0 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="10" velocity="5.6548668" lower="-1.0471976" upper="1.0471976"/>
   </joint>
