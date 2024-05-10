@@ -794,7 +794,7 @@
     <child link="MP_ANKLE1_L"/>
     <origin xyz="-0.093 0 0" rpy="3.14159 0 1.1388"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
+    <limit effort="10" velocity="5.6548668" lower="-1.0471976" upper="1.0471976"/>
   </joint>
   <joint name="j_ankle2_l" type="revolute">
     <parent link="MP_ANKLE1_L"/>
