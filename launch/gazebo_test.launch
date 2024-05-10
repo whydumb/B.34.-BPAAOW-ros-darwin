@@ -5,5 +5,5 @@
     <arg name="world_name" value="worlds/empty.world"/>
     <arg name="paused" value="true"/>
   </include>
-  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find darwin_description)/urdf/darwin.urdf -urdf -model darwin -z 0.232"/>
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find darwin_description)/urdf/darwin.urdf -urdf -model darwin -z 0.3417"/>
 </launch>
