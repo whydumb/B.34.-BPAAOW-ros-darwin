@@ -900,16 +900,6 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
-  <transmission name="t_j_wrist_l">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="j_wrist_l">
-      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="m_j_wrist_l">
-      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
   <transmission name="t_j_gripper_l">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="j_gripper_l">
@@ -946,16 +936,6 @@
       <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     </joint>
     <actuator name="m_j_low_arm_r">
-      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-      <mechanicalReduction>1</mechanicalReduction>
-    </actuator>
-  </transmission>
-  <transmission name="t_j_wrist_r">
-    <type>transmission_interface/SimpleTransmission</type>
-    <joint name="j_wrist_r">
-      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
-    </joint>
-    <actuator name="m_j_wrist_r">
       <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
