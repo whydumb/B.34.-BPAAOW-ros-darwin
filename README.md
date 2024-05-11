@@ -4,13 +4,15 @@ ROS package providing mesh files and URDF of the Darwin OP robot for use with
 the real robot or Gazebo. URDF contains joint transmissions for controllers and
 Gazebo referenced plugins for camera and the IMU provided by hector_gazebo.
 
-![Darwin model in Gazebo](/images/darwin.png?raw=true "Darwin model in Gazebo")
-
 This is a fork of the repository provided by Génération Robots and HumaRobotics
 under the Simplified BSD license because that repository is unmaintained.
 
-The center of mass and inertial tensor for all links were recalculated and lower
-and upper limits for joints were updated.
+Main differences are:
+1. The center of mass and inertial tensor for all links were recalculated
+   and fixed;
+2. Lower and upper limits for joints were updated.
+
+![Darwin model in Gazebo](/images/darwin.png?raw=true "Darwin model in Gazebo")
 
 ## Install
 
@@ -23,7 +25,7 @@ and make it download all the not packaged dependencies:
 mkdir catkin_ws
 cd catkin_ws
 wstool init src
-wstool merge -t src https://raw.githubusercontent.com/eriol/darwin_description/master/darwin_description.rosinstall
+wstool merge -t src https://raw.githubusercontent.com/eriol/darwin_description/main/darwin_description.rosinstall
 wstool update -t src
 ```
 
