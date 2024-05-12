@@ -422,9 +422,9 @@
   </link>
   <link name="MP_ANKLE2_L">
     <inertial>
-      <origin xyz="-0.01996417 -0.00872548 -0.00081419"/>
+      <origin xyz="-0.02659859 -0.0106184 -0.00243412"/>
       <mass value="0.0794462"/>
-      <inertia ixx="8.112e-05" ixy="-1.74e-06" ixz="-1.2e-07" iyy="6.424e-05" iyz="-3.7e-07" izz="2.961e-05"/>
+      <inertia ixx="9.461e-05" ixy="7e-08" ixz="1.07e-06" iyy="6.786e-05" iyz="6e-08" izz="2.933e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -542,9 +542,9 @@
   </link>
   <link name="MP_ANKLE2_R">
     <inertial>
-      <origin xyz="0.01996174 -0.008713 -0.00082472"/>
+      <origin xyz="0.02659998 -0.01061509 -0.00243811"/>
       <mass value="0.0794462"/>
-      <inertia ixx="8.107e-05" ixy="1.75e-06" ixz="1.2e-07" iyy="6.42e-05" iyz="-4.1e-07" izz="2.962e-05"/>
+      <inertia ixx="9.46e-05" ixy="-6e-08" ixz="-1.07e-06" iyy="6.785e-05" iyz="5e-08" izz="2.933e-05"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
