@@ -155,36 +155,14 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_L">
     <inertial>
-      <origin xyz="-0.032 0.016 0.0"/>
+      <origin xyz="0.01353588 -0.00168308 -0.0"/>
       <mass value="0.01"/>
-      <inertia ixx="1.71e-06" ixy="-0.0" ixz="-0.0" iyy="4.27e-06" iyz="-0.0" izz="4.27e-06"/>
-    </inertial>
-    <visual>
-      <origin xyz="0.016 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.064 0.032 0.032"/>
-      </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0.016 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.064 0.032 0.032"/>
-      </geometry>
-    </collision>
-  </link>
-  <link name="MP_ARM_GRIPPER_FIX_DUMMY_L">
-    <inertial>
-      <origin xyz="0.0 0.0 0.0"/>
-      <mass value="0.01"/>
-      <inertia ixx="8.7e-07" ixy="0.0" ixz="0.0" iyy="1.71e-06" iyz="0.0" izz="8.7e-07"/>
+      <inertia ixx="1.67e-06" ixy="5.9e-07" ixz="-0.0" iyy="6.39e-06" iyz="-0.0" izz="6.35e-06"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.032 0.005 0.032"/>
+        <mesh filename="package://darwin_description/meshes/arm_basic_low_l.stl" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
         <color rgba="0.20 0.20 0.20 1.0"/>
@@ -192,7 +170,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.032 0.005 0.032"/>
+        <mesh filename="package://darwin_description/meshes/arm_basic_low_l.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -280,36 +258,14 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_R">
     <inertial>
-      <origin xyz="-0.032 0.016 0.0"/>
+      <origin xyz="0.01353588 -0.00168308 -0.0"/>
       <mass value="0.01"/>
-      <inertia ixx="1.71e-06" ixy="-0.0" ixz="-0.0" iyy="4.27e-06" iyz="-0.0" izz="4.27e-06"/>
-    </inertial>
-    <visual>
-      <origin xyz="0.016 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.064 0.032 0.032"/>
-      </geometry>
-      <material name="Grey">
-        <color rgba="0.20 0.20 0.20 1.0"/>
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0.016 0 0" rpy="0 0 0"/>
-      <geometry>
-        <box size="0.064 0.032 0.032"/>
-      </geometry>
-    </collision>
-  </link>
-  <link name="MP_ARM_GRIPPER_FIX_DUMMY_R">
-    <inertial>
-      <origin xyz="0.0 0.0 0.0"/>
-      <mass value="0.01"/>
-      <inertia ixx="8.7e-07" ixy="0.0" ixz="0.0" iyy="1.71e-06" iyz="0.0" izz="8.7e-07"/>
+      <inertia ixx="1.67e-06" ixy="5.9e-07" ixz="-0.0" iyy="6.39e-06" iyz="-0.0" izz="6.35e-06"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.032 0.005 0.032"/>
+        <mesh filename="package://darwin_description/meshes/arm_basic_low_r.stl" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
         <color rgba="0.20 0.20 0.20 1.0"/>
@@ -317,7 +273,7 @@
     </visual>
     <collision>
       <geometry>
-        <box size="0.032 0.005 0.032"/>
+        <mesh filename="package://darwin_description/meshes/arm_basic_low_r.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -629,11 +585,6 @@
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
   </joint>
-  <joint name="j_wrist_dummy_l" type="fixed">
-    <parent link="MP_ARM_GRIPPER_FIX_L"/>
-    <child link="MP_ARM_GRIPPER_FIX_DUMMY_L"/>
-    <origin xyz="0.064 -0.01 0" rpy="0 0 0"/>
-  </joint>
   <joint name="j_back_r" type="fixed">
     <parent link="MP_BODY"/>
     <child link="MP_BACK_R"/>
@@ -667,11 +618,6 @@
     <origin xyz="0.048 -0.016 0" rpy="1.5707963 0 0"/>
     <axis xyz="0 0 1"/>
     <limit effort="2.8" velocity="5.6548668" lower="-2.6179939" upper="2.6179939"/>
-  </joint>
-  <joint name="j_wrist_dummy_r" type="fixed">
-    <parent link="MP_ARM_GRIPPER_FIX_R"/>
-    <child link="MP_ARM_GRIPPER_FIX_DUMMY_R"/>
-    <origin xyz="0.064 -0.01 0" rpy="0 0 0"/>
   </joint>
   <joint name="j_pelvis_l" type="revolute">
     <parent link="MP_BODY"/>
@@ -998,9 +944,6 @@
   <gazebo reference="MP_ARM_GRIPPER_FIX_L">
     <material>Gazebo/Grey</material>
   </gazebo>
-  <gazebo reference="MP_ARM_GRIPPER_FIX_DUMMY_L">
-    <material>Gazebo/Grey</material>
-  </gazebo>
   <gazebo reference="MP_BACK_R">
     <material>Gazebo/Grey</material>
   </gazebo>
@@ -1014,9 +957,6 @@
     <material>Gazebo/Black</material>
   </gazebo>
   <gazebo reference="MP_ARM_GRIPPER_FIX_R">
-    <material>Gazebo/Grey</material>
-  </gazebo>
-  <gazebo reference="MP_ARM_GRIPPER_FIX_DUMMY_R">
     <material>Gazebo/Grey</material>
   </gazebo>
   <gazebo reference="MP_PELVIS_L">
