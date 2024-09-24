@@ -280,23 +280,22 @@
   </link>
   <link name="MP_ARM_GRIPPER_FIX_R">
     <inertial>
-      <origin xyz="-0.032 0.016 0.0"/>
+      <origin xyz="0.01353588 -0.00168308 -0.0"/>
       <mass value="0.01"/>
-      <inertia ixx="1.71e-06" ixy="-0.0" ixz="-0.0" iyy="4.27e-06" iyz="-0.0" izz="4.27e-06"/>
+      <inertia ixx="1.67e-06" ixy="5.9e-07" ixz="-0.0" iyy="6.39e-06" iyz="-0.0" izz="6.35e-06"/>
     </inertial>
     <visual>
-      <origin xyz="0.016 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.064 0.032 0.032"/>
+        <mesh filename="package://darwin_description/meshes/arm_basic_low_r.stl" scale="1 1 1"/>
       </geometry>
       <material name="Grey">
         <color rgba="0.20 0.20 0.20 1.0"/>
       </material>
     </visual>
     <collision>
-      <origin xyz="0.016 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="0.064 0.032 0.032"/>
+        <mesh filename="package://darwin_description/meshes/arm_basic_low_r.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
