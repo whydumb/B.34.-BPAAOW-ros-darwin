@@ -13,9 +13,9 @@
   </joint>
   <link name="MP_BODY">
     <inertial>
-      <origin xyz="-0.01968089 -1.96e-06 -0.03183524"/>
+      <origin xyz="-0.0201 0.0 -0.035"/>
       <mass value="0.97559947"/>
-      <inertia ixx="0.00204518" ixy="6e-08" ixz="0.00021261" iyy="0.00176434" iyz="3.4e-07" izz="0.00196178"/>
+      <inertia ixx="0.00224591" ixy="-0.0" ixz="0.0" iyy="0.00205892" iyz="-0.0" izz="0.00215445"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -28,7 +28,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://darwin_description/meshes/body_coll.stl" scale="1 1 1"/>
+        <mesh filename="package://darwin_description/meshes/body_coll_simple.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
