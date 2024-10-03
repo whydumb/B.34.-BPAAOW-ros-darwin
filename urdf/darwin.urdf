@@ -53,9 +53,9 @@
   </link>
   <link name="MP_HEAD">
     <inertial>
-      <origin xyz="0.0025258 -0.0244761 6.7e-07"/>
+      <origin xyz="0.0 -0.0244761 6.7e-07"/>
       <mass value="0.15804192"/>
-      <inertia ixx="0.00015674" ixy="2.495e-05" ixz="-0.0" iyy="0.00016811" iyz="0.0" izz="0.00017148"/>
+      <inertia ixx="0.00012751" ixy="-0.0" ixz="0.0" iyy="0.00012751" iyz="-0.0" izz="0.00012734"/>
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -68,7 +68,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://darwin_description/meshes/head_coll.stl" scale="1 1 1"/>
+        <mesh filename="package://darwin_description/meshes/head_coll_simple.stl" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
