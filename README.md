@@ -11,7 +11,8 @@ Main differences are:
 1. The center of mass and inertial tensor for all links were recalculated
    and fixed;
 2. lower and upper limits for joints were updated;
-3. arms have 3DOF instead of 5.
+3. arms have 3DOF instead of 5;
+4. joints' name were updated to reduce cognitive load.
 
 A new control package that take into account these differences was written from
 scratch: https://github.com/eriol/darwin_control
