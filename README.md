@@ -1,8 +1,7 @@
 # darwin_description
 
-ROS package providing mesh files and URDF of the Darwin OP robot for use with
-the real robot or Gazebo. URDF contains joint transmissions for controllers and
-Gazebo referenced plugins for camera and the IMU provided by hector_gazebo.
+실제 로봇이나 Gazebo에서 사용할 수 있도록 Darwin OP 로봇의 메쉬 파일과 URDF를 제공하는 ROS 패키지입니다.
+URDF에는 컨트롤러를 위한 조인트 트랜스미션과 Gazebo에서 사용할 수 있도록 hector_gazebo에서 제공하는 카메라 및 IMU(관성 측정 장치) 플러그인이 포함되어 있습니다.
 
 This is a fork of the repository provided by Génération Robots and HumaRobotics
 under the Simplified BSD license because that repository is unmaintained.
